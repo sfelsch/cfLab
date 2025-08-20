@@ -1,0 +1,25 @@
+/* Paleta CF */
+:root{
+  --violeta-dark:#4c2bc2;
+  --bs-primary: var(--violeta);
+  --bs-primary-rgb: 108,63,242;
+}
+
+/* Botones y links */
+.btn-primary{
+  background:var(--violeta) !important;
+  border-color:var(--violeta) !important;
+}
+.btn-primary:hover{ background:var(--violeta-dark)!important; border-color:var(--violeta-dark)!important; }
+a, .text-primary{ color:var(--violeta)!important; }
+a:hover{ color:var(--violeta-dark)!important; }
+
+/* Navbar CTA (el botón “Make an Appointment”) */
+.cta-btn{
+  background:var(--violeta); border:0; color:#fff; padding:10px 18px; border-radius:6px;
+}
+.cta-btn:hover{ background:var(--violeta-dark); }
+
+/* Ajustes suaves */
+.hero .why-box{ border-top:4px solid var(--violeta); }
+.icon-box i, .services .icon{ color:var(--violeta); }
